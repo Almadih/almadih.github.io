@@ -1,0 +1,233 @@
+            .text-center {
+                text-align: center !important;
+                margin-bottom: 1.5rem!important;
+                margin-top: 4.5rem!important;
+            }
+            
+            .container-fulid .jumbotron-heading {
+                color: #039BE5;
+                font-family: -webkit-pictograph;
+            }
+            
+            .rounded-circle {
+                border-radius: 50% !important;
+                margin-bottom: 33px;
+                margin-top: 49px;
+            }
+            
+            .bg-light {
+                background-color: #039BE5 !important;
+            }
+            
+            .list {
+                color: #FFF;
+                float: right;
+                list-style: none;
+            }
+            
+            .nav-link {
+                display: block;
+                padding: 0.5rem 1rem;
+                list-style: none;
+                color: #FFF;
+            }
+            /* Start About Me */
+            
+            .about-me {
+                background-color: #F2F2F2;
+                overflow: hidden;
+            }
+            
+            .about-me .image {
+                float: left;
+                width: 40%;
+            }
+            
+            .about-me .image img {
+                width: 97%
+            }
+            
+            .about-me .info {
+                float: left;
+                text-align: left;
+                width: 60%;
+            }
+            
+            .about-me .info h2 {
+                margin: 25px 0 20px 40px;
+                font-family: Lucida Sans
+            }
+            
+            .about-me .info>p {
+                margin: 0 0 10px 40px;
+            }
+            
+            .about-me .info>p:last-of-type {
+                margin-top: 25px;
+            }
+            
+            .about-me .info p {
+                line-height: 1.6;
+                color: rgba(33, 51, 35, 0.9);
+            }
+            
+            .about-me .image img {
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            /* End About Me */
+            /* Start My Skills*/
+            
+            .My-Skills {
+                padding-top: 30px;
+                padding-bottom: 50px;
+                overflow: hidden;
+            }
+            
+            .My-Skills .skills,
+            .My-Skills .progress {
+                width: 50%;
+                float: left;
+            }
+            
+            .My-Skills .skills h2 {
+                margin: 25px 0 20px 40px;
+                color: #555;
+            }
+            
+            .My-Skills .skills p {
+                margin: 0 0 10px 40px;
+                line-height: 1.6;
+                color: rgba(33, 51, 35, 0.9);
+            }
+            
+            .My-Skills .skills p:last-of-type {
+                margin-top: 25px;
+            }
+            
+            .My-Skills .skills button {
+                margin-top: 20px;
+                margin-left: 40px;
+            }
+            
+            .My-Skills .progress .technique {
+                margin-left: 50px;
+            }
+            
+            .My-Skills .progress .technique h5 {
+                color: #555;
+            }
+            
+            .My-Skills .progress .technique div {
+                background-color: #F2F2F2;
+                height: 25px;
+            }
+            
+            .My-Skills .progress .technique div span {
+                background-color: #2DCC70;
+                height: 25px;
+                display: block;
+                line-height: 25px;
+                text-align: right;
+                color: #FFF;
+                font-weight: bold;
+            }
+            /* End My Skills*/
+            
+            .text-muted {
+                padding-left: 47px;
+                padding-right: 10px;
+                padding-top: 10px;
+            }
+            
+            .jumbotron-heading {
+                padding-left: 44px;
+                padding-top: 28px;
+            }
+            
+            #a {
+                color: #039BE5;
+                font-family: Showcard Gothic;
+                font-size: 30px;
+            }
+            
+            #b {
+                font-family: Snap ITC;
+                font-size: 30px;
+            }
+            
+            #c {
+                color: #039BE5;
+                font-family: Snap ITC;
+                font-size: 30px;
+            }
+
+.icons {
+    margin-top: 1rem; }
+    .icons a {
+      padding: 0.7rem; 
+text-decoration: none; 
+}
+ 
+.contact{
+    border: #039BE5 1px solid;
+    transition: all 0.2s ease-out; 
+    padding: 1rem;
+}
+.contact a{
+    text-decoration: none
+}
+.contact span{
+    color: #039BE5
+}
+.contact:hover{
+    background-color: #039BE5;
+    color: white;
+    padding: 1.4rem;
+}
+
+.contact:hover span{
+    color: white
+}.contact:hover a{
+    color: white
+}
+
+button:hover a{
+    color: white;
+    text-decoration: none;
+}
+
+.float{
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    
+}
+
+.mdl-button--primary.mdl-button--primary.mdl-button--raised, .mdl-button--primary.mdl-button--primary.mdl-button--fab{
+    background-color: #039BE5
+}
+.mdl-button--primary a{
+    color: white
+}
+.wts:hover{
+    color: rgb(0,230,118);
+        transition: all 0.2s ease-out; 
+}
+.gth:hover{
+    transition: all 0.2s ease-out; 
+    color: #212121
+}.twt:hover{
+    transition: all 0.2s ease-out; 
+    color: #29b6f6
+}.face:hover{
+    transition: all 0.2s ease-out; 
+    color: #0277bd
+}.in:hover i{
+    transition: all 0.2s ease-out; 
+    color: #1a237e
+}
+.resp{
+    width: 100%;
+    height: auto
+}
