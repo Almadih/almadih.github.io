@@ -177,7 +177,9 @@ text-decoration: none;
 .contact a{
     text-decoration: none
 }
-.contact span{
+.contact h3 span{
+    color: #039BE5
+}.contact h3 a{
     color: #039BE5
 }
 .contact:hover{
