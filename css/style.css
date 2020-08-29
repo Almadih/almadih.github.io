@@ -5,8 +5,7 @@
             }
             
            .name {
-                color: #039BE5;
-                font-family: -webkit-pictograph;
+                color: #00b0ff;
             }
             
             .rounded-circle {
@@ -16,7 +15,7 @@
             }
             
             .bg-light {
-                background-color: #039BE5 !important;
+                background-color: #00b0ff !important;
             }
             
             .list {
@@ -33,9 +32,8 @@
             }
             /* Start About Me */
             
-            .about-me {
-                background-color: #F2F2F2;
-                overflow: hidden;
+            .about {
+                font-size: large;
             }
             
             .about-me .image {
@@ -235,4 +233,16 @@ button:hover a{
 }
 .h{
     min-height:99px;
+}
+.fa-node-js{
+    color: #2DCC70;
+}
+.fa-whatsapp{
+    color: #2DCC70;
+}
+.fa-bug{
+    color:rgb(235, 73, 62);
+}
+.fa-at{
+    color:rgb(27, 27, 27);
 }

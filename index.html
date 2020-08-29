@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/cde1eee387.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" type="" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
 
@@ -22,20 +23,14 @@
 
 <body>
     <content id="top">
-        <!-- Start Header -->
-        <center>
-            <div class="container-fulid">
-                <img class="rounded-circle" src="22.jpg" alt="Generic placeholder image" width="100" height="100">
-                <h1 class="name">Mohamed Almadih</h1>
-                <h1 class="h3 mb-3 font-weight-normal">A Web Developer & Progrmmer</h1>
-            </div>
-        </center>
-        <!-- End Header -->
-        <!-- Start Navbar -->
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="list">
-                <div class="container">
+            <div class="container col-sm-4">
+                <h5 class="nav-link">Mohamed Almadih</h5>
+            </div>
+            <div class="list col-sm-8">
+
+                <div class="container ">
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About Me</a>
@@ -52,198 +47,96 @@
         </nav>
         <!-- End Navbar -->
         <!--- Start About Me -->
+        <div class="container">
 
-        <div class="about-me" id="about">
-            <div class="container">
-
-                <center>
-                    <div class="mt-4" role="alert">
-                        <h1 >About Me</h1>
-                        <p class="lead p-3" style="text-align:left; font-weight:360">My name is Mohamed Ibrahim , i am a 4th year IT student at university of Bahri. I aspire to be a great web developer some day , i am making my dreams true day after day.
-
-                        <p>
-                            <div class="icons p-3">
-      <a href="https://twitter.com/Almadih5x" target="_blank" class="twt">
-        <i class="fab fa-twitter fa-3x"></i>
-      </a>
-      <a href="https://www.facebook.com/almadih5x" target="_blank" class="face">
-        <i class="fab fa-facebook fa-3x"></i>
-      </a>
-      <a href="https://github.com/Almadih" target="_blank" class="gth">
-        <i class="fab fa-github fa-3x"></i>
-      </a> <a href="https://wa.me/249992442228" target="_blank" class="wts">
-        <i class="fab fa-whatsapp fa-3x"></i>
-      </a>
-    </div>
-
-                        </p>
-                     <button type="button" class="btn btn-outline-primary mb-3"> <a href="#contact" target="_blank">Contact Me</a></button>
-                    </div>
-                </center>
-
-            </div>
-
-
-        </div>
-
-        <!--- End About Me -->
-
-        <br><br>
-        <!-- Start My skills-->
-        <br><br>
-        <the-body>
-            <div class="container" id="skills">
-
-                <div class="card-deck">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="pz vp vy afo">
-                                <div class="qa">
-                                    <div class="card-body">
-                                        <div class="pz vp vy afo">
-                                            <div class="qa">
-
-
-                                                <div class="skills">
-                                                    <h2>My Skills</h2>
-                                                    <p>
-                                                    My main programing language is JavaScript ,  i found it easy and powerful . For the back-end i use <a href="https://nodejs.org/" target="_blank">Node Js</a> runtime , in the front-end my main framework is Vue Js + vuetify " Material Design implementation for vue ".<br> I have a good knowledge in delaing with databases like MySQL and Sqlite , and web APIs .Beside JavaScript i have some Experience in othe languages : PHP , Java and Python . 
-                                                    </p>
-                                                </div>
-
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row mt-5 pt-5" id="about">
+                <div class="container col-md-6 col-sm-12 text-center">
+                    <h1 class="name">About Me <i class="fa fa-user"></i></h1>
+                    <p class="about text-secondary h5 p-3">My name is Mohamed Ibrahim , i am a 4th
+                        year IT student at university of Bahri. I aspire to be a great web developer some day , i am
+                        making
+                        my dreams true day after day.
+                    </p>
+                </div>
+                <div class="container col-md-6 col-sm-12">
+                    <img src="./imgs/Web 1920 – 1.svg" />
                 </div>
             </div>
-        </the-body>
-        <!---End My Skills -->
-        <br><br>
-        <br><br>
-        <!--- Start My App -->
-        <!--- End my App -->
 
-        <div class="about-me">
-        <example id="works">
-            <center>
-                <div class="" role="alert">
-                    <div class="alert alert-secondary" role="alert">
-                        <h1>My Works</h1>
-                        <div class="navbar-brand"> 
-                        </div>
-                    </div>
+
+            <!--- End About Me -->
+
+            <div class="row d-flex" id="skills">
+                <div class="container col-md-6 order-sm-1 col-sm-12 text-center">
+                    <img src="./imgs/Web 1920 – 6.svg"/>
                 </div>
-            </center>
-        </example>
-            <div class="container">
-                <div class="row">
 
-                    <!--- Note App -->
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top resp" alt="Thumbnail [100%x225]" src="./screenshots/note.PNG" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                            <div class="card-body">
-                                <h4>Note Taking app</h4>
-                                <p class="card-text h">A simple app for taking notes , it's basically a CRUD app , where you can create , read , update and delete notes .</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <button type="button" class="btn btn-outline-primary"> <a href="https://almadih.github.io/Notes-App/" target="_blank"><i class="fa fa-eye" ></i> View</a></button>
-                                    
-                                        <button type="button" class="btn btn-outline-primary"> <a href="https://github.com/Almadih/notes-app" target="_blank"><i class="fa fa-code" ></i> Code</a></button>
-                                </div>
+                <div class="container col-md-6 order-sm-2 col-sm-12 text-center">
+                    <h1 class="name">My Skills <i class="fa fa-tools"></i></h1>
+                        <div class="row pt-5" >
+                            <div class="col-lg-6 col-sm-6">
+                                <i class="fab fa-node-js fa-4x"></i>
+                                <p class="about text-secondary h5 p-3">
+                                    Fast, powerful and secure APIs with nodejs runtime and express framework.
+                                </p>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <i class="fas fa-bug fa-4x"></i>
+                                <p class="about text-secondary h5 p-3">
+                                    Excellent debugging skills.
+                                </p>
+
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <i class="fab fa-python fa-4x"></i>
+                                <p class="about text-secondary h5 p-3">
+                                    Web scraping and other small scripts with Python.
+                                </p>
+
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <i class="fas fa-mobile-alt fa-4x"></i>
+                                <p class="about text-secondary h5 p-3">
+                                    Mobile applications with flutter framework.
+                                </p>
+
                             </div>
                         </div>
-                    </div>
-                    <!--- Poll App -->
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" alt="Thumbnail [100%x225]" src="screenshots/poll.PNG" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                            <div class="card-body">
-                                <h4>Polling app</h4>
-                                <p class="card-text h">This app allow you to create a poll with some options and then share the link where people can vote to any one of the options and display the results as a chart .</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                   <button type="button" class="btn btn-outline-primary"> <a href="https://almadih.github.io/Polling-App/" target="_blank"><i class="fa fa-eye" ></i> View</a></button>
-                                        <button type="button" class="btn btn-outline-primary"> <a href="https://github.com/Almadih/polling-app" target="_blank"><i class="fa fa-code" ></i> Code</a></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!---Chat  App -->
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" alt="Thumbnail [100%x225]" src="screenshots/chat.PNG" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                            <div class="card-body">
-                                <h4>Instant messages app</h4>
-                                <p class="card-text h">After you create an account you get a list of registered users then you can text them if they replay the message will be displayed instantly no need to refresh the page thanks to <a href="https://socket.io/">Socket.io</a>.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                   
-                                        <button type="button" class="btn btn-outline-primary"> <a href="https://almadih.github.io/Chat-App" target="_blank"><i class="fa fa-eye" ></i> View</a></button>
-                                        <button type="button" class="btn btn-outline-primary"> <a href="https://github.com/Almadih/chat-app" target="_blank"><i class="fa fa-code" ></i> Code</a></button>
-                                
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
 
                 </div>
             </div>
-            
-                <div class="container pb-4" id="contact">
-                <div class="card-deck">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="pz vp vy afo">
-                                <div class="qa">
-                                    <div class="card-body">
 
+         <div class="row">
+             <div class="col-lg-12 text-center">
+                <h1 class="name">Contact me <i class="fa fa-tools"></i></h1>
+                 <img src="./imgs/Web 1920 – 7.svg" width="85%" height="auto">
+             </div>
+             <div class="col-lg-12">
+                 <div class="row justify-content-center">
+                     <a href=" https://wa.me/249992442228" target="_blank" class="mr-4"><i class="fab fa-whatsapp fa-4x"></i></a>
+                     <a href=" https://t.me/Almadih_5x" target="_blank" class="mr-4"><i class="fab fa-telegram fa-4x"></i></a>
+                     <a href="mailto:modialmadih@gmail.com" target="_blank" class="mr-4"><i class="fas fa-at fa-4x"></i></a>
+                 </div>
+             </div>
+         </div>
 
-                                        <h2>Contact Me</h2>
-                                        
-                                        <div class="container mt-4 ml-2">
-                                        <div class="contact mb-2" >
-                                        
-                                            <h3>Email : <a href="mailto:modialmadih@gmail.com" >modialmadih@gmail.com</a></h3>
-                                            
-                                        </div>
-                                            
-                                             <div class="contact" >
-                                        
-                                            <h3>Phone : <span>+249 992 442 228</span></h3>
-                                            
-                                        </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <!-- End The-Body -->
-            
             <!-- FOoter -->
-<button class="mdl-button mdl-button--fab float mdl-button--primary" >
-    <a href="#top"><i class="fa fa-angle-up fa-sm"></i></a>
-  
-</button>
-            <footer class="container-fluid bg-4 text-center cont">
-                <p>All Rights Resrved A.R Team 2018 &copy;</p>
+            <button class="mdl-button mdl-button--fab float mdl-button--primary">
+                <a href="#top"><i class="fa fa-angle-up fa-sm"></i></a>
 
-            </footer>
-            <content>
-                <script>
-	var scroll = new SmoothScroll('a[href*="#"]');
-</script>
+            </button>
+        </div>
+
+
+        <footer class="container-fluid bg-4 text-center cont">
+            <p>All Rights Resrved A.R Team 2018 &copy;</p>
+
+        </footer>
+        <content>
+            <script>
+                var scroll = new SmoothScroll('a[href*="#"]');
+            </script>
 </body>
+
 </html>
