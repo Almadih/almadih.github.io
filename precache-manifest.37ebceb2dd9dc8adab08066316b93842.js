@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52168a34bd1ad248112e9694b7dc2102",
+    "revision": "83d3528294e1636af3239164d2e90468",
     "url": "/index.html"
   },
   {
-    "revision": "f579a6d8cd3f7203f94b",
-    "url": "/static/css/3.00373544.chunk.css"
+    "revision": "3d265907781adbac04a3",
+    "url": "/static/css/3.3a26ebde.chunk.css"
   },
   {
-    "revision": "3bfbcc97997d0132fba7",
-    "url": "/static/css/4.a922a401.chunk.css"
+    "revision": "26055658a154f29b710b",
+    "url": "/static/css/4.ee2a0142.chunk.css"
   },
   {
-    "revision": "58dcc9babb28af711e97",
-    "url": "/static/css/main.bd4e58e4.chunk.css"
+    "revision": "4405bd79080a64c9eb17",
+    "url": "/static/css/main.39a8036f.chunk.css"
   },
   {
     "revision": "b4a4bb0fefe9d3d7077b",
     "url": "/static/js/2.c117d34a.chunk.js"
   },
   {
-    "revision": "f579a6d8cd3f7203f94b",
+    "revision": "3d265907781adbac04a3",
     "url": "/static/js/3.b8285f45.chunk.js"
   },
   {
-    "revision": "3bfbcc97997d0132fba7",
+    "revision": "26055658a154f29b710b",
     "url": "/static/js/4.ceceb6c7.chunk.js"
   },
   {
-    "revision": "58dcc9babb28af711e97",
-    "url": "/static/js/main.c996cded.chunk.js"
+    "revision": "4405bd79080a64c9eb17",
+    "url": "/static/js/main.6bf5f694.chunk.js"
   },
   {
-    "revision": "1496090f11d39389be65",
-    "url": "/static/js/runtime-main.cbebf1d9.js"
+    "revision": "0fbd8d89f50c010c7283",
+    "url": "/static/js/runtime-main.36fca802.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -124,11 +124,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/stanfordLogo.3b758ef5.png"
   },
   {
-    "revision": "13780cdd0144cacdef25486e2c2503f8",
-    "url": "/static/media/talksCardBack.13780cdd.svg"
+    "revision": "39eff4a91b01e00a32cb78f3797eec88",
+    "url": "/static/media/talksCardBack.39eff4a9.svg"
   },
   {
-    "revision": "b48e86c9a956d3a3a32ca4a5ae05ddc7",
-    "url": "/static/media/talksCardBackAlt.b48e86c9.svg"
+    "revision": "7f0feeedda08cf7d68593454bc2e82b5",
+    "url": "/static/media/talksCardBackAlt.7f0feeed.svg"
   }
 ]);
