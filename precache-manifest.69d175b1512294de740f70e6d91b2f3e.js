@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83d3528294e1636af3239164d2e90468",
+    "revision": "2c66d50f9d9dcb3b192afcbc586b1258",
     "url": "/index.html"
   },
   {
-    "revision": "3d265907781adbac04a3",
+    "revision": "0e4795024ec76a0ef885",
     "url": "/static/css/3.3a26ebde.chunk.css"
   },
   {
-    "revision": "26055658a154f29b710b",
+    "revision": "b6fb4afd8008335337a7",
     "url": "/static/css/4.ee2a0142.chunk.css"
   },
   {
-    "revision": "4405bd79080a64c9eb17",
-    "url": "/static/css/main.39a8036f.chunk.css"
+    "revision": "a3130c5d87af815dfaf4",
+    "url": "/static/css/main.f21adff6.chunk.css"
   },
   {
-    "revision": "b4a4bb0fefe9d3d7077b",
-    "url": "/static/js/2.c117d34a.chunk.js"
+    "revision": "f82fb7923d04e484cefb",
+    "url": "/static/js/2.8a6ffdee.chunk.js"
   },
   {
-    "revision": "3d265907781adbac04a3",
-    "url": "/static/js/3.b8285f45.chunk.js"
+    "revision": "0e4795024ec76a0ef885",
+    "url": "/static/js/3.e081645d.chunk.js"
   },
   {
-    "revision": "26055658a154f29b710b",
-    "url": "/static/js/4.ceceb6c7.chunk.js"
+    "revision": "b6fb4afd8008335337a7",
+    "url": "/static/js/4.3b507184.chunk.js"
   },
   {
-    "revision": "4405bd79080a64c9eb17",
-    "url": "/static/js/main.6bf5f694.chunk.js"
+    "revision": "a3130c5d87af815dfaf4",
+    "url": "/static/js/main.74235d20.chunk.js"
   },
   {
-    "revision": "0fbd8d89f50c010c7283",
-    "url": "/static/js/runtime-main.36fca802.js"
+    "revision": "aab8535b86a38225a9c8",
+    "url": "/static/js/runtime-main.5945d148.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -68,6 +68,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/facebookLogo.8ddf76a1.png"
   },
   {
+    "revision": "4bde12203d05d7ab70ef968b9eaa9198",
+    "url": "/static/media/freelancer.4bde1220.jpg"
+  },
+  {
     "revision": "c24ba79111a90758a3a472a906ab2901",
     "url": "/static/media/googleAssistant.c24ba791.svg"
   },
@@ -82,10 +86,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b05ae5b575a7e1125610944dc152c35f",
     "url": "/static/media/jsFramework.b05ae5b5.svg"
-  },
-  {
-    "revision": "25bf045ca257e971124f3997d89f321c",
-    "url": "/static/media/logo.25bf045c.svg"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
