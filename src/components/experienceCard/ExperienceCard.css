@@ -3,7 +3,7 @@
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
     border-radius: 10px;
-    border: 1px solid rgba(211, 211, 211, 0.397);
+    /* border: 1px solid rgba(211, 211, 211, 0.397); */
 }
 
 .experience-card-dark {
@@ -83,8 +83,8 @@
     top: 7rem;
     margin-left: auto;
     margin-right: auto;
-    width: 8rem;
-    height: 8rem;
+    width: 15rem;
+    height: 15rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
     border-radius: 50%;
 }
@@ -116,7 +116,7 @@
 
 .experience-text-details {
     padding: 1.5rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 /* Media Query */
@@ -133,8 +133,8 @@
         font-size: 18px;
     }
     .experience-roundedimg {
-        width: 6.5rem;
-        height: 6.5rem;
+        width: 10rem;
+        height: 10rem;
     }
 }
 

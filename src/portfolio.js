@@ -10,7 +10,7 @@ const greeting = {
   username: "Mohamed Almadih",
   title: "Hi all, I'm Moahmed",
   subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Vuejs / Nodejs / Flutter and some other cool libraries and frameworks."),
-  // resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: process.env.PUBLIC_URL + "/Mohamed Almadih CV.pdf"
 };
 
 // Your Social Media Link
@@ -21,7 +21,7 @@ const socialMediaLinks = {
   gmail: "modialmadih@gmail.com",
   gitlab: "https://gitlab.com/almadih",
   facebook: "https://www.facebook.com/almadih5x",
-  twitter:"https://twitter.com/almadih_desu"
+  twitter: "https://twitter.com/almadih_desu"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -36,8 +36,8 @@ const skillsSection = {
     emoji("⚡ Develop cross-platform mobile apps")
   ],
 
-/* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  /* Make Sure You include correct Font Awesome Classname to view your icon
+  https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -78,27 +78,16 @@ https://fontawesome.com/icons?d=gallery */
 // Your education background
 
 const educationInfo = {
-  viewEducation: false, // Set it to true to see education section
+  viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Bahri",
+      logo: require("./assets/images/logo2.png"),
+      subHeader: "Bachelor in Computer Science",
+      duration: "September 2015 - November 2021",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+
       ]
     }
   ]
@@ -115,7 +104,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Frontend/Design",  //Insert stack or technology you have experience in
@@ -128,32 +117,19 @@ const techStack = {
 // Your top 3 work experiences
 
 const workExperiences = {
-  viewExperiences: false, //Set it to true to show workExperiences Section
+  viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
       company: "Freelancer",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2019 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      companylogo: require("./assets/images/freelancer.jpg"),
+      date: "Sep 2019 – Present",
+      desc: `Logical and results-driven Backend Developer dedicated to building and optimizing web APIs
+      for customers with various business objectives. Judicious and creative when crafting effective
+      APIs, apps and platforms to propel competitive advantage and revenue growth.`,
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
   ]
 };
@@ -164,7 +140,7 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "almadih", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
+  showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 
@@ -174,14 +150,46 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+    {
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Crash-phone",
+      projectDesc: "Online shop for phones and accessories, built with Laravel and React",
+      footerLink: [
+        {
 
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Rapid Logistic",
+      projectDesc: "Dashboard for delivering and monitoring orders, built with Nodejs and Vue",
+      footerLink: [
+        {
+
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Dinnar Wallet",
+      projectDesc: "Digital wallet that support deposting and withdrawing money with diffrent methods, built with Nodejs and Vue",
+      footerLink: [
+        {
+
+        }
+        //  you can add extra buttons here.
+      ]
+    },
   ]
 };
 
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
-  viewAchievements:false,
+  viewAchievements: false,
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -218,7 +226,7 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  viewBlog:false,
+  viewBlog: false,
   title: "Blogs",
   subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
@@ -239,7 +247,7 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  viewTalk:false,
+  viewTalk: false,
   title: "TALKS",
   subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
 
@@ -256,7 +264,7 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  viewPodcast:false,
+  viewPodcast: false,
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
@@ -275,7 +283,7 @@ const contactInfo = {
 
 const twitterDetails = {
 
-  userName : "almadih_desu"//Replace "twitter" with your twitter username without @
+  userName: "almadih_desu"//Replace "twitter" with your twitter username without @
 
 };
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, twitterDetails };
